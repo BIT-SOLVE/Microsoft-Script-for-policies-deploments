@@ -3,8 +3,8 @@ $Version = 1
 
 # Set image file names for desktop background and lock screen
 # leave blank if you wish not to set either of one
-$WallpaperIMG = "wallpaper-scloud-rocket.jpg"
-$LockscreenIMG = "scloud-banner.jpg"
+$WallpaperIMG = "wallpaper-bitsolve.jpg"
+$LockscreenIMG = "locksreensaver.jpg"
 
 Start-Transcript -Path "$env:ProgramData\Microsoft\IntuneManagementExtension\Logs\$PackageName-install.log" -Force
 $ErrorActionPreference = "Stop"
@@ -52,6 +52,6 @@ else{
 }
 
 
-New-Item -Path "C:\ProgramData\scloud\Validation\$PackageName" -ItemType "file" -Force -Value $Version
+New-Item -Path "C:\ProgramData\bitsolve\Validation\$PackageName" -ItemType "file" -Force -Value $Version
 
 Stop-Transcript

@@ -2,8 +2,9 @@
 
 # Set image file names for desktop background and lock screen
 # leave blank if you with not to set either of one
-$WallpaperIMG = "wallpaper-scloud.jpg"
-$LockscreenIMG = "scloud-banner.jpg"
+$WallpaperIMG = "wallpaper-bitsolve.jpg"
+$LockscreenIMG = "locksreensaver.jpg"
+
 
 Start-Transcript -Path "$env:ProgramData\Microsoft\IntuneManagementExtension\Logs\$PackageName-uninstall.log" -Force
 $ErrorActionPreference = "Stop"
